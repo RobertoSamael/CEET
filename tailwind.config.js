@@ -10,8 +10,21 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
+      colors: {
+      'ceet1': '#0B1D41',
+      'ceet2': '#24324C',
+      'ceet3': '#00C8BF',
+      'ceet4': '#A8E4E4',
+      'ceet5': '#FF9302',
+      'ceet6': '#FED500',
+    },
+    fontFamily: {
+      Poppins: 'Poppins',
+    },
+    backgroundImage: {
+      'hero-bg': "url('/assets/Homepagebg.jpg')",
     },
   },
   plugins: [],
+  }
 }
