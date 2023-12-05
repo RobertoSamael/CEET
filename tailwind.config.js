@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const {nextui} = require("@nextui-org/react");
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -7,6 +9,7 @@ module.exports = {
     './src/sections/**/*.{js,ts,jsx,tsx,mdx}',
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/styles/**/*.{js,ts,jsx,tsx,mdx}',
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -17,14 +20,17 @@ module.exports = {
       'ceet4': '#A8E4E4',
       'ceet5': '#FF9302',
       'ceet6': '#FED500',
+      'ceet7': '#E9F6FA',
     },
     fontFamily: {
       Poppins: 'Poppins',
     },
     backgroundImage: {
       'hero-bg': "url('/assets/Homepagebg.jpg')",
+      'mision-bg': "url('/assets/Collage.png')"
     },
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [nextui()],
   }
 }

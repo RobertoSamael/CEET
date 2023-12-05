@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Eventos() {
   return (
-    <div>Eventos</div>
+    <section className='w-full h-screen flex'>
+      
+    </section>
   )
 }

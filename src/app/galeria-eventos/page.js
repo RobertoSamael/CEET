@@ -1,7 +1,15 @@
+import MobileNav from '@/components/MobileNav'
+import Nav from '@/components/Nav'
+import { NextUIProvider } from '@nextui-org/react'
 import React from 'react'
 
 export default function page() {
   return (
-    <div>GaleriaEventos</div>
+    <NextUIProvider>
+      <main className="w-full flex flex-col">
+        <MobileNav/>
+        <Nav/>
+      </main>
+    </NextUIProvider>
   )
 }
