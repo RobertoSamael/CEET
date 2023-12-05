@@ -12,13 +12,10 @@ export default function Home() {
   return (
     <NextUIProvider>
       <main className="w-full flex flex-col">
-        <MobileNav/>
-        <Nav/>
         <Header/>
         <AboutUs/>
         <Mision/>
         <Message/>
-        <Footer/>
       </main>
     </NextUIProvider>
 
