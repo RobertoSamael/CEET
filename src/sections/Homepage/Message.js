@@ -4,11 +4,11 @@ import React from 'react'
 
 export default function Message() {
   return (
-    <section className='w-full md:h-[50vh] flex flex-col md:flex-row p-3 gap-4 bg-ceet7'>
-      <div className='w-full h-full flex'>
-        <Image src={'/assets/Directora.jpg'} alt='Directora' width={0} height={0} sizes='100vw' style={{ width: '100%', height: 'auto', objectFit: 'cover'}} quality={100}/>
+    <section className='w-full md:h-[50vh] flex flex-col md:flex-row gap-4 bg-ceet7 relative'>
+      <div className='w-full h-full flex z-10'>
+        <Image src={'/assets/Directora.jpg'} alt='Directora' width={0} height={0} sizes='100vw' style={{ width: '100%', height: 'auto', objectFit: 'cover'}} className='p-5' quality={100}/>
       </div>
-      <div className='w-full h-full flex flex-col md:justify-center gap-10 p-2'>
+      <div className='w-full h-full flex flex-col md:justify-center gap-10 p-2 z-10'>
         <Title titulo='MOTIVACIÓN'>
           Mensaje de la Directora
         </Title>
@@ -27,6 +27,7 @@ export default function Message() {
           </p>
         </div>
       </div>
+      <Image src={'/assets/torn_paper1.png'} alt='tornpaper' width={0} height={0} sizes='100vw' style={{ width: '100%', height: 'auto', objectFit: 'cover'}} className='absolute bottom-0 -mb-5 md:-mb-16 z-[1]' quality={100}/>
     </section>
   )
 }

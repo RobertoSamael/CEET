@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Eventos() {
   return (
-    <section className='w-full flex flex-col p-10 pt-10 gap-7'>
+    <section className='w-full flex flex-col p-10 pt-10 pb-20 gap-7'>
       <div className='w-full flex flex-col justify-center mt-10 md:mt-20 gap-2'>
         <Title titulo={'NUESTRAS ACTIVIDADES'}>
           Eventos

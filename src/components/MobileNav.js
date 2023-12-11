@@ -3,7 +3,7 @@ import { Link, Navbar, NavbarContent, NavbarMenu, NavbarMenuItem, NavbarMenuTogg
 import Image from 'next/image';
 import React from 'react'
 
-import '../styles/Nav/MobileNav.css'
+import '../styles/Nav/navstyles.css'
 
 export default function MobileNav() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);

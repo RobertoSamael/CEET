@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Evento({id, titulo, children}) {
   return (
-    <div className='w-[300px] h-[300px] flex flex-col shadow-xl border border-gray-200'>
+    <a className='w-[300px] h-[300px] flex flex-col shadow-xl border-2 border-gray-200 hover:border-ceet5 transition-all duration-300 ease-in-out' href={`/galeria-eventos/evento/${id}`}>
       <div className='w-full h-1/2 flex'>
         <Image src={'/assets/visionbg.png'} alt='AboutUsImg' width={0} height={0} sizes='100vw' style={{ width: '100%', height: 'auto', objectFit: 'cover'}} quality={80}/>
       </div>
@@ -15,12 +15,12 @@ export default function Evento({id, titulo, children}) {
           {children}
         </p>
         <div className='w-full flex justify-end items-center gap-1'>
-          <a className='font-Poppins text-xs font-semibold' href={`/galeria-eventos/evento/${id}`}>
+          <h2 className='font-Poppins text-xs font-semibold'>
             Conoce Más
-          </a>
+          </h2>
           <svg xmlns="http://www.w3.org/2000/svg" height="13" width="13" viewBox="0 0 320 512"><path fill="#000000" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
         </div>
       </div>
-    </div>
+    </a>
   )
 }
