@@ -19,16 +19,8 @@ export default function page() {
         <hr className='w-full h-1 bg-ceet5'/>
 
         <p className='font-Poppins font-light text-sm'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices magna lectus, eget condimentum velit dictum vel. 
-        Vivamus id malesuada mi. Donec quis faucibus lorem, at gravida dolor. Aliquam erat volutpat. Vestibulum ut augue eget massa volutpat scelerisque. 
-        Curabitur a orci ullamcorper, laoreet mi eget, placerat nulla. Integer sodales arcu massa, at rutrum sapien laoreet nec. Nullam sollicitudin ipsum in lacus congue placerat. 
-        Praesent posuere blandit blandit.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate est a nibh auctor faucibus. In dapibus lectus vitae luctus congue. 
-        Phasellus quis sapien et tellus facilisis porta. Vestibulum at dapibus felis. Nullam rutrum tortor quis justo rutrum, vel ullamcorper nisl sodales. 
-        Maecenas efficitur mi quis dignissim ultrices. Praesent sit amet ornare augue. Donec luctus et ipsum venenatis maximus. Aenean id ante libero. 
-        Donec sit amet ligula porttitor, vestibulum felis et, elementum justo.
-        Aenean nec congue mauris, nec sagittis elit. Donec placerat, risus in egestas ultricies, lorem massa euismod enim, quis viverra arcu eros at purus. 
-        Nullam tempor mi aliquet, pulvinar velit vel, ornare purus.
+        La sección de Maternal comprende la edad de 10 meses a 2 años, 11 meses en la cual nuestro propósito es desarrollar al niño mediante la estimulación temprana en todos sus aspectos: 
+        los sentidos, el juego, el pensamiento, el lenguaje, las emociones, los hábitos, adquisición de experiencias, etc. Mediante las actividades orientadas.
         </p>
         <a href='/contacto' className='w-fit p-4 bg-ceet1 hover:px-7 transition-all ease-in-out duration-300'>
           <p className='text-white font-Poppins text-sm font-semibold'>CONTÁCTANOS</p>

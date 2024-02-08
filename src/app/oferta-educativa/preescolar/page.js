@@ -19,16 +19,10 @@ export default function page() {
         <hr className='w-full h-1 bg-ceet5'/>
 
         <p className='font-Poppins font-light text-sm'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices magna lectus, eget condimentum velit dictum vel. 
-        Vivamus id malesuada mi. Donec quis faucibus lorem, at gravida dolor. Aliquam erat volutpat. Vestibulum ut augue eget massa volutpat scelerisque. 
-        Curabitur a orci ullamcorper, laoreet mi eget, placerat nulla. Integer sodales arcu massa, at rutrum sapien laoreet nec. Nullam sollicitudin ipsum in lacus congue placerat. 
-        Praesent posuere blandit blandit.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate est a nibh auctor faucibus. In dapibus lectus vitae luctus congue. 
-        Phasellus quis sapien et tellus facilisis porta. Vestibulum at dapibus felis. Nullam rutrum tortor quis justo rutrum, vel ullamcorper nisl sodales. 
-        Maecenas efficitur mi quis dignissim ultrices. Praesent sit amet ornare augue. Donec luctus et ipsum venenatis maximus. Aenean id ante libero. 
-        Donec sit amet ligula porttitor, vestibulum felis et, elementum justo.
-        Aenean nec congue mauris, nec sagittis elit. Donec placerat, risus in egestas ultricies, lorem massa euismod enim, quis viverra arcu eros at purus. 
-        Nullam tempor mi aliquet, pulvinar velit vel, ornare purus.
+        La sección de PREESCOLAR inicia a los 3 años cumplidos a Diciembre, enfocamos el aprendizaje a través del juego y la exploración, fomentando la curiosidad y la creatividad. 
+        Se promueve la interacción social y el trabajo en equipo. La iniciación al Inglés progresivo, el razonamiento matemático y la lectoescritura comienza a temprana edad, 
+        todo dentro de un entorno basado en Valores, afectuoso y estimulante que respeta la individualidad de cada niño. 
+        También se fomenta la autonomía y la toma de decisiones para construir una base sólida para su futuro.
         </p>
         <a href='/contacto' className='w-fit p-4 bg-ceet1 hover:px-7 transition-all ease-in-out duration-300'>
           <p className='text-white font-Poppins text-sm font-semibold'>CONTÁCTANOS</p>

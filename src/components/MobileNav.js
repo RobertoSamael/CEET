@@ -8,12 +8,13 @@ import '../styles/Nav/navstyles.css'
 export default function MobileNav() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-    const menuItems = [
-        "Inicio",
-        "Oferta Educativa",
-        "Galeria / Eventos",
-        "Contacto",
-    ];
+    const menuItems = {
+        "Inicio": '',
+        "Oferta Educativa": 'oferta-educativa',
+        "Galeria / Eventos": 'galeria-eventos',
+        "Contacto": 'contacto',
+    };
+    console.log(Object.entries(menuItems))
   return (
     <Navbar isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen} className='bg-ceet1 bg-opacity-50 sm:hidden fixed'>
     <NavbarContent className='navcontent'>
@@ -23,15 +24,15 @@ export default function MobileNav() {
         <Image src={'/assets/LOGO.png'} alt='LogoCEET' quality={10} width={50} height={50}/>
     </NavbarContent>
   <NavbarMenu className='bg-ceet1 bg-opacity-50'>
-    {menuItems.map((item, index) => (
+    {Object.entries(menuItems).map((item, index) => (
       <NavbarMenuItem key={`${item}-${index}`}>
         <Link
           onPress={() => setIsMenuOpen(!isMenuOpen)}
           className="w-full text-white font-Baloo py-5"
-          href={`#${item}`}
+          href={`/${item[1]}`}
           size="lg"
         >
-          {item}
+          {item[0]}
         </Link>
       </NavbarMenuItem>
     ))}

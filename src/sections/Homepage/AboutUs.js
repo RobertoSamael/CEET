@@ -15,7 +15,9 @@ export default function AboutUs() {
             Experimenta nuestra metodología de enseñanza única en CEET.
           </Title>
           <p className='font-Poppins text-base'>
-            En CEET, creemos en brindar una educación bilingüe que fomente la creatividad, el pensamiento crítico y la comprensión cultural.
+          El colegio Ceet es un Colegio Bilingüe con 20 años al servicio de la educación en H.Matamoros 
+          Tamaulipas donde brindamos una educación bilingüe progresiva que fomente la creatividad, 
+          el pensamiento crítico y la comprensión cultural.
           </p>
           </div>
 
@@ -26,7 +28,8 @@ export default function AboutUs() {
                 Subtitulo 1
               </p>
               <p className='font-Poppins text-base'>
-                En CEET, creemos en brindar una educación bilingüe que fomente la creatividad, el pensamiento crítico y la comprensión cultural.
+              Nuestro personal está totalmente capacitado y contamos con nuestros propios programas 
+              educativos que al unirlos con los de la SET logramos un aprendizaje significativo. 
               </p>
             </div>
             <div className='w-full flex flex-col gap-2'>
@@ -35,7 +38,10 @@ export default function AboutUs() {
                 Subtitulo 2
               </p>
               <p className='font-Poppins text-base'>
-                En CEET, creemos en brindar una educación bilingüe que fomente la creatividad, el pensamiento crítico y la comprensión cultural.
+              Contamos con las diferentes secciones: MATERNAL, PREESCOLAR Y PRIMARIA. Además 
+              brindamos el  servicio de comedor donde nuestros menús están avalados por un nutriólogo 
+              basados en la alimentación sana, variada y suficiente y  también contamos con servicio de 
+              estancia.
               </p>
             </div>
           </div>

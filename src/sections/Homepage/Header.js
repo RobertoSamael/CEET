@@ -7,7 +7,7 @@ export default function Header() {
     <section className='w-full h-screen bg-hero-bg bg-cover bg-center'>
       <div className='w-full h-full bg-ceet1 bg-opacity-50 flex flex-col items-center justify-center p-6 gap-4'>
 
-        <motion.h2 className='font-Poppins font-extrabold text-5xl lg:text-8xl lg:w-[1200px] md:text-7xl text-white text-center drop-shadow-[8px_8px_0_rgba(0,0,0,0.20)]'
+        <motion.h2 className='font-Poppins font-extrabold text-5xl lg:text-8xl md:text-7xl text-white text-center drop-shadow-[8px_8px_0_rgba(0,0,0,0.20)]'
           initial={{y: -20, opacity: 0}}
           whileInView={{y: 0, opacity: 1}}
           transition={{duration: 0.5, ease: 'easeOut'}}>
